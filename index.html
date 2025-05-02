@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/10456/10456439.png">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 fixed top-0 w-full">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img class="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="media/my_img.jpg"
+                    alt="Bordered avatar">
+
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Portfolio</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#home"
+                            class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about"
+                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects"
+                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="home" class="items-center flex w-full h-[100vh] border-3 border-red-800">   
+            <div class="sm:pl-40 pl-10 font-medium inline-flex w-full flex-col gap-2">
+                <h2 class="text-xl">Hello,My Name is</h2>
+                <h1 class="text-5xl sm:text-7xl font-bold">Archit Kumar</h1>
+                <p class="sm:text-3xl text-2xl">And I am a <span>Software Developer</span></p>
+                <a><button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-lg px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Hire Me</button>
+                </a>
+            </div>
+
+    </div>
+    <div id="about" class="border-2 border-blue-800 sm:h-[100vh] pt-20">
+        <div class="heading text-center flex flex-col gap-1">
+            <h1 class="text-5xl font-bold">About Me</h1>
+            <p class="text-2xl font-semibold"><span class="font-bold">--</span> Who I am <span
+                    class="font-bold">--</span></p>
+        </div>
+        <div class="grid sm:grid-cols-2 border-2 h-[87%] overflow-clip">
+            <div class="img-section place-items-center content-center border ">
+                <img src="media/my_img.jpg" class="sm:h-[450px] h-[300px] border rounded-2xl mx-auto">
+
+            </div>
+            <div class="text place-items-center content-center border p-5 h-auto">
+                <p class="sm:text-3xl text-2xl">I am a <span>Software Developer</span></p>
+                <span>Passionate about Web Development,
+                    Goal is to achieve a good position by doing satisfying work in the IT field,
+                    Self-motivated team player with quick learning skill seeking a position as an intern in web
+                    developing with Next Generation Web Development where I can apply my knowledge of web design with my
+                    leadership abilities to meet client needs and exceed their expectations.
+                    Passionate about Web Development,
+                    </span>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="projects" class="border-2 border-blue-800 sm:h-[100vh] pt-20">
+        <div class="heading text-center flex flex-col gap-1">
+            <h1 class="text-5xl font-bold">My Projects</h1>
+            <p class="text-2xl font-semibold"><span class="font-bold">--</span> What i Made <span
+                    class="font-bold">--</span></p>
+        </div>
+        <div class="grid sm:grid-cols-2 place-items-center p-[20px] gap-10 sm:p-20 border-2 h-[87%]">
+            <a href="#"
+                class="block text-center break-words max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <i class="fa-solid fa-graduation-cap text-6xl text-red-600"></i>
+
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Students Management System</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400"> Developed a comprehensive Students Management System using Python and Tkinter that allows administrators to add, update, delete, and search student records efficiently. The application features a user-friendly GUI, integrates with a database for persistent data storage, and provides real-time validation to maintain data accuracy. Ideal for schools and institutes to streamline student data handling.
+                </p>
+            </a>
+            <a href="#"
+                class="block max-w-sm p-6 text-center break-words bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <i class="fa-solid fa-cart-shopping text-6xl text-red-600"></i>
+
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">E-Commerce Website</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400">Built a fully functional e-commerce website named <strong>E-Shop</strong> using Django framework. The platform includes essential features such as product listing, user authentication, cart management, and secure checkout with payment integration. Admins can manage inventory and orders through a custom dashboard. Designed with responsive layout and optimized for seamless user experience across devices.
+                </p>
+            </a>
+        </div>
+
+    </div>
+
+   
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+
+</html>
