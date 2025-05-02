@@ -10,12 +10,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 </head>
 
-<body>
+<body class="scroll-smooth">
 
 
     <nav class="bg-white border-gray-200 dark:bg-gray-900 fixed top-0 w-full">
@@ -38,22 +40,22 @@
             </button>
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul
-                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-[35px] rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
                         <a href="#home"
-                            class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
-                            aria-current="page">Home</a>
+                            class="block  py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
                     </li>
                     <li>
                         <a href="#about"
                             class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
                     </li>
+                    
                     <li>
                         <a href="#projects"
                             class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
                     </li>
                     <li>
-                        <a href="#"
+                        <a href="#skills"
                             class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Skills</a>
                     </li>
                     <li>
@@ -64,14 +66,16 @@
             </div>
         </div>
     </nav>
-    <div id="home" class="items-center flex w-full h-[100vh] border-3 border-red-800">   
-            <div class="sm:pl-40 pl-10 font-medium inline-flex w-full flex-col gap-2">
-                <h2 class="text-xl">Hello,My Name is</h2>
-                <h1 class="text-5xl sm:text-7xl font-bold">Archit Kumar</h1>
-                <p class="sm:text-3xl text-2xl">And I am a <span>Software Developer</span></p>
-                <a><button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-lg px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Hire Me</button>
-                </a>
-            </div>
+    <div id="home" class="items-center flex w-full h-[100vh] border-3 border-red-800">
+        <div class="sm:pl-40 pl-10 font-medium inline-flex w-full flex-col gap-2">
+            <h2 class="text-xl">Hello,My Name is</h2>
+            <h1 class="text-5xl sm:text-7xl font-bold">Archit Kumar</h1>
+            <p class="sm:text-3xl text-2xl">And I am a <span>Software Developer</span></p>
+            <a><button type="button"
+                    class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-lg px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Hire
+                    Me</button>
+            </a>
+        </div>
 
     </div>
     <div id="about" class="border-2 border-blue-800 sm:h-[100vh] pt-20">
@@ -93,7 +97,7 @@
                     developing with Next Generation Web Development where I can apply my knowledge of web design with my
                     leadership abilities to meet client needs and exceed their expectations.
                     Passionate about Web Development,
-                    </span>
+                </span>
             </div>
         </div>
 
@@ -110,8 +114,13 @@
                 class="block text-center break-words max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <i class="fa-solid fa-graduation-cap text-6xl text-red-600"></i>
 
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Students Management System</h5>
-                <p class="font-normal text-gray-700 dark:text-gray-400"> Developed a comprehensive Students Management System using Python and Tkinter that allows administrators to add, update, delete, and search student records efficiently. The application features a user-friendly GUI, integrates with a database for persistent data storage, and provides real-time validation to maintain data accuracy. Ideal for schools and institutes to streamline student data handling.
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Students Management
+                    System</h5>
+                <p class="font-normal text-gray-700 dark:text-gray-400"> Developed a comprehensive Students Management
+                    System using Python and Tkinter that allows administrators to add, update, delete, and search
+                    student records efficiently. The application features a user-friendly GUI, integrates with a
+                    database for persistent data storage, and provides real-time validation to maintain data accuracy.
+                    Ideal for schools and institutes to streamline student data handling.
                 </p>
             </a>
             <a href="#"
@@ -119,14 +128,110 @@
                 <i class="fa-solid fa-cart-shopping text-6xl text-red-600"></i>
 
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">E-Commerce Website</h5>
-                <p class="font-normal text-gray-700 dark:text-gray-400">Built a fully functional e-commerce website named <strong>E-Shop</strong> using Django framework. The platform includes essential features such as product listing, user authentication, cart management, and secure checkout with payment integration. Admins can manage inventory and orders through a custom dashboard. Designed with responsive layout and optimized for seamless user experience across devices.
+                <p class="font-normal text-gray-700 dark:text-gray-400">Built a fully functional e-commerce website
+                    named <strong>E-Shop</strong> using Django framework. The platform includes essential features such
+                    as product listing, user authentication, cart management, and secure checkout with payment
+                    integration. Admins can manage inventory and orders through a custom dashboard. Designed with
+                    responsive layout and optimized for seamless user experience across devices.
                 </p>
             </a>
         </div>
 
     </div>
 
-   
+    <div id="skills" class="border-2 border-blue-800 sm:h-[100vh] pt-20">
+        <div class="heading text-center flex flex-col gap-1">
+            <h1 class="text-5xl font-bold">My Skills</h1>
+            <p class="text-2xl font-semibold"><span class="font-bold">--</span> What i Know <span
+                    class="font-bold">--</span></p>
+        </div>
+        <div class=" border-2 grid sm:grid-cols-2 h-[87%]">
+            <div class="section-left flex flex-col gap-5 p-[20px] sm:p-20">
+                <div class="progress-component">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-medium text-blue-700">Html</span>
+                        <span class="text-sm font-medium text-blue-700 ">80%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                        <div class="bg-blue-600 h-2.5 rounded-full w-[80%]"></div>
+                    </div>
+                </div>
+                <div class="progress-component">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-medium text-blue-700">Css</span>
+                        <span class="text-sm font-medium text-blue-700 ">60%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                        <div class="bg-blue-600 h-2.5 rounded-full w-[60%]" ></div>
+                    </div>
+                </div>
+                <div class="progress-component">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-medium text-blue-700">Javascript</span>
+                        <span class="text-sm font-medium text-blue-700 ">60%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                        <div class="bg-blue-600 h-2.5 rounded-full w-[60%]"></div>
+                    </div>
+                </div>
+                <div class="progress-component">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-medium text-blue-700">Tailwind Css</span>
+                        <span class="text-sm font-medium text-blue-700 ">60%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                        <div class="bg-blue-600 h-2.5 rounded-full w-[60%]"></div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="section-right flex flex-col gap-5 p-[20px] sm:p-20">
+                <div class="progress-component">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-medium text-blue-700">Python</span>
+                        <span class="text-sm font-medium text-blue-700 ">70%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                        <div class="bg-blue-600 h-2.5 rounded-full w-[70%]"></div>
+                    </div>
+                </div>
+                <div class="progress-component">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-medium text-blue-700">Django</span>
+                        <span class="text-sm font-medium text-blue-700 ">60%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                        <div class="bg-blue-600 h-2.5 rounded-full w-[60%]"></div>
+                    </div>
+                </div>
+                <div class="progress-component">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-medium text-blue-700">MySql</span>
+                        <span class="text-sm font-medium text-blue-700 ">75%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                        <div class="bg-blue-600 h-2.5 rounded-full w-[75%]"></div>
+                    </div>
+                </div>
+                <div class="progress-component">
+                    <div class="flex justify-between mb-1">
+                        <span class="text-base font-medium text-blue-700">Git & Github</span>
+                        <span class="text-sm font-medium text-blue-700">65%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                        <div class="bg-blue-600 h-2.5 rounded-full w-[65%]"></div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
 
 
 
