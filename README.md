@@ -17,7 +17,7 @@ This is a **responsive personal portfolio website** built using **HTML**, **Tail
 
 ## 📸 Preview
 
-![Portfolio Screenshot](./Screenshot 2025-05-04 002928.png) <!-- Replace with your actual screenshot path -->
+![Portfolio Screenshot](https://github.com/archit646/Portfolio/blob/main/Screenshot%202025-05-04%20002928.png?raw=true)
 
 ---
 
