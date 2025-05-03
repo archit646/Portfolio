@@ -8,16 +8,17 @@
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/10456/10456439.png">
     <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
     <script src="https://cdn.tailwindcss.com"></script>
-
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
 
 
 </head>
 
 <body>
+
 
 
     <nav class="bg-white border-gray-200 dark:bg-gray-900 fixed top-0 w-full">
@@ -66,11 +67,12 @@
             </div>
         </div>
     </nav>
-    <div id="home" class="items-center text-white flex w-full h-[100vh]  bg-cover bg-no-repeat bg-center bg-[url('media/background.jpeg')]">
+    <div id="home"
+        class="items-center text-white flex w-full h-[100vh] bg-fixed  bg-cover bg-no-repeat bg-center bg-[url('media/background.jpeg')]">
         <div class="sm:pl-40 pl-10 font-medium inline-flex w-full flex-col gap-2">
             <h2 class="text-xl">Hello,My Name is</h2>
             <h1 class="text-5xl sm:text-7xl font-bold text-yellow-500">Archit Kumar</h1>
-            <p class="sm:text-3xl text-2xl">And I am a <span>Software Developer</span></p>
+            <p class="sm:text-3xl text-2xl">And I am a <span class="auto-typed text-red-700">Software Developer</span></p>
             <a><button type="button"
                     class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-lg px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Hire
                     Me</button>
@@ -90,31 +92,32 @@
         </div>
         <div class="grid sm:grid-cols-2 h-[87%] overflow-clip">
             <div class="img-section place-items-center content-center">
-                <img src="media/my_img.jpg" class="sm:h-[450px] h-[300px] rounded-2xl mx-auto">
+                <img src="media/my_img.jpg"
+                    class="sm:h-[450px] h-[300px] rounded-2xl mx-auto border-2 shadow-2xl shadow-black">
 
             </div>
-            <div class="text place-items-center content-center p-5 h-auto">
-                <p class="sm:text-3xl text-2xl">I am a <span>Software Developer</span></p>
-                <span>Passionate about Web Development,
-                    Goal is to achieve a good position by doing satisfying work in the IT field,
-                    Self-motivated team player with quick learning skill seeking a position as an intern in web
-                    developing with Next Generation Web Development where I can apply my knowledge of web design with my
-                    leadership abilities to meet client needs and exceed their expectations.
-                    Passionate about Web Development,
+            <div class="text content-center p-5 h-auto text-start">
+                <p class="sm:text-3xl text-2xl font-semibold">I am a <span class="auto-typed text-red-700">Software Developer</span></p>
+                <span>I am a passionate and motivated fresher with a strong interest in Web Development.
+                    I am eager to start my career in the IT industry by contributing to meaningful projects. With a good
+                    understanding of modern web technologies and a willingness to learn, I aim to join a
+                    forward-thinking organization where I can grow my skills.
+                    I am a quick learner, a team player,
+                    and dedicated to delivering user-friendly and responsive web applications.
                 </span>
             </div>
         </div>
 
     </div>
 
-    <div id="projects" class="sm:h-[100vh] pt-20">
+    <div id="projects" class="sm:h-[100vh] pt-20 bg-black text-white">
         <div class="heading text-center flex flex-col gap-1">
             <h1 class="text-5xl font-bold">My Projects</h1>
             <div class="flex justify-center items-center gap-1">
-                <span class="h-1 w-10 bg-black inline-block"></span>
+                <span class="h-1 w-10 bg-white inline-block"></span>
                 <p class="text-2xl font-semibold text-red-600">
                     What i Made
-                </p><span class="h-1 w-10 bg-black inline-block"></span>
+                </p><span class="h-1 w-10 bg-white inline-block"></span>
             </div>
         </div>
         <div class="grid sm:grid-cols-2 place-items-center p-[20px] gap-10 sm:p-20 h-[87%]">
@@ -277,18 +280,20 @@
 
                     </div>
                     <div class="row-container flex gap-5 w-full justify-start">
-                        <i class="fa-solid fa-envelope text-2xl text-red-600"></i>
+                        <i class="fa-brands fa-github text-2xl text-red-600"></i>
                         <div class="flex flex-col">
-                            <h2 class="text-2xl font-semibold">Email</h2>
-                            <p class="text-xl font-thin">Miranpur,Muzaffarnagar,(UP)</p>
+                            <h2 class="text-2xl font-semibold">GitHub</h2>
+                            <p class="text-xl font-thin text-red-700"><a
+                                    href="https://github.com/archit646">https://github.com/archit646</a></p>
                         </div>
 
                     </div>
                     <div class="row-container flex gap-5 w-full justify-start">
-                        <i class="fa-solid fa-location-dot text-2xl text-red-600"></i>
+                        <i class="fa-brands fa-linkedin text-2xl text-red-600"></i>
                         <div class="flex flex-col">
-                            <h2 class="text-2xl font-semibold">Adderess</h2>
-                            <p class="text-xl font-thin">Miranpur,Muzaffarnagar,(UP)</p>
+                            <h2 class="text-2xl font-semibold">Linkedin</h2>
+                            <p class="text-xl font-thin text-red-700"><a
+                                    href="https://www.linkedin.com/in/archit-kumar-725939328/">archit-kumar</a></p>
                         </div>
 
                     </div>
@@ -296,7 +301,7 @@
             </div>
 
             <div class="section-right p-8 items-center justify-center flex mx-auto">
-                <div class="inner-section flex flex-col gap-5">
+                <form target="_blank" action="" method="post" class="inner-section flex flex-col gap-5">
                     <div class="heading flex gap-2 items-center">
                         <p class="font-semibold text-2xl">Messege Me</p>
                     </div>
@@ -312,13 +317,12 @@
 
                     </div>
                     <div class="row-container flex gap-5 w-full justify-start">
-                        <button type="button"
+                        <button type="submit"
                             class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200  hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100  dark:bg-pink-600 dark:text-white dark:border-gray-600 dark:hover:text-white dark:hover:bg-pink-900">Send
                             Messege</button>
-
-
                     </div>
-                </div>
+
+                </form>
             </div>
         </div>
 
@@ -331,7 +335,8 @@
             <span class="text-sm text-center text-gray-500 sm:text-center dark:text-gray-400">© 2023 
                      All Rights Reserved.
             </span> -->
-            <h2 class="text-white text-center text-sm sm:text-xl">Created By <a href="#home" class="text-red-600">Archit Kumar</a> |© 2025 All rights reserved.</h2>
+        <h2 class="text-white text-center text-sm sm:text-xl">Created By <a href="#home" class="text-red-600">Archit
+                Kumar</a> |© 2025 All rights reserved.</h2>
 
         </div>
     </footer>
@@ -343,6 +348,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
