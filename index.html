@@ -302,18 +302,20 @@
 
             <div class="section-right p-8 items-center justify-center flex mx-auto">
                 <form name="contact" method="post" data-netlify="true" class="inner-section flex flex-col gap-5">
+                    <input type="hidden" name="form-name" value="contact" />
+
                     <div class="heading flex gap-2 items-center">
                         <p class="font-semibold text-2xl">Messege Me</p>
                     </div>
                     <div class="row-container sm:grid-cols-2 grid gap-5 w-full justify-start">
-                        <input type="text" class="border-2 rounded-lg p-2" placeholder="Name" required>
-                        <input type="email" class="border-2 rounded-lg p-2" placeholder="Email" required>
+                        <input type="text" class="border-2 rounded-lg p-2" name="name" placeholder="Name" required />
+                        <input type="email" class="border-2 rounded-lg p-2" name="email" placeholder="Email" required />
                     </div>
                     <div class="row-container gap-5 w-full">
-                        <input type="text" class="border-2 rounded-lg p-2 w-full" placeholder="Subject" required>
+                        <input type="text" class="border-2 rounded-lg p-2 w-full" name="subject" placeholder="Subject" required />
                     </div>
                     <div class="row-container flex gap-5 w-full justify-start">
-                        <textarea placeholder="Messege..." class="border-2 w-full h-20 pt-2 pl-2" required></textarea>
+                        <textarea placeholder="Messege..." class="border-2 w-full h-20 pt-2 pl-2" name="message" required></textarea>
 
                     </div>
                     <div class="row-container flex gap-5 w-full justify-start">
