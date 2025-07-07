@@ -12,7 +12,76 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <style>
+        @keyframes fill80 {
+            from {
+                width: 0%;
+            }
+
+            to {
+                width: 80%;
+            }
+        }
+
+        .animate-fill80 {
+            animation: fill80 2s ease-out forwards;
+        }
+         @keyframes fill75 {
+            from {
+                width: 0%;
+            }
+
+            to {
+                width: 75%;
+            }
+        }
+
+        .animate-fill75 {
+            animation: fill75 2s ease-out forwards;
+        }
+
+        @keyframes fill70 {
+            from {
+                width: 0%;
+            }
+
+            to {
+                width: 70%;
+            }
+        }
+
+        .animate-fill70 {
+            animation: fill70 2s ease-out forwards;
+        }
+         @keyframes fill65 {
+            from {
+                width: 0%;
+            }
+
+            to {
+                width: 65%;
+            }
+        }
+
+        .animate-fill65 {
+            animation: fill65 2s ease-out forwards;
+        }
+         @keyframes fill60 {
+            from {
+                width: 0%;
+            }
+
+            to {
+                width: 60%;
+            }
+        }
+
+        .animate-fill60 {
+            animation: fill60 2s ease-out forwards;
+        }
+    </style>
 
 </head>
 
@@ -71,15 +140,17 @@
         <div class="sm:pl-40 pl-10 font-medium inline-flex w-full flex-col gap-2">
             <h2 class="text-xl">Hello,My Name is</h2>
             <h1 class="text-5xl sm:text-7xl font-bold text-yellow-500">Archit Kumar</h1>
-            <p class="sm:text-3xl text-2xl">And I am a <span class="auto-typed text-blue-400 font-semibold">Software Developer</span></p>
+            <p class="sm:text-3xl text-2xl">And I am a <span class="auto-typed text-blue-400 font-semibold">Software
+                    Developer</span></p>
             <div class="button-container flex gap-10">
-            <a href="mailto:architk471@gmail.com"><button type="button"
-                class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-lg px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Hire
-                Me</button>
-            </a>
-            <a href="public/Archit_Resume.pdf" download><button type="button"
-                class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-lg px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Download CV</button>
-            </a>
+                <a href="mailto:architk471@gmail.com"><button type="button"
+                        class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-lg px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Hire
+                        Me</button>
+                </a>
+                <a href="public/Archit_Resume.pdf" download><button type="button"
+                        class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-lg px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Download
+                        CV</button>
+                </a>
             </div>
         </div>
 
@@ -101,7 +172,8 @@
 
             </div>
             <div class="text content-center p-5 h-auto text-start">
-                <p class="sm:text-3xl text-2xl font-semibold">I am a <span class="auto-typed text-red-700">Software Developer</span></p>
+                <p class="sm:text-3xl text-2xl font-semibold">I am a <span class="auto-typed text-red-700">Software
+                        Developer</span></p>
                 <span>I am a passionate and motivated fresher with a strong interest in Web Development.
                     I am eager to start my career in the IT industry by contributing to meaningful projects. With a good
                     understanding of modern web technologies and a willingness to learn, I aim to join a
@@ -172,7 +244,7 @@
                         <span class="text-sm font-medium text-blue-700 ">80%</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full w-[80%]"></div>
+                        <div class="bg-blue-600 h-2.5 rounded-full w-[80%] animate-fill80"></div>
                     </div>
                 </div>
                 <div class="progress-component">
@@ -181,7 +253,7 @@
                         <span class="text-sm font-medium text-blue-700 ">60%</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full w-[60%]"></div>
+                        <div class="bg-blue-600 h-2.5 rounded-full w-[60%] animate-fill60"></div>
                     </div>
                 </div>
                 <div class="progress-component">
@@ -190,7 +262,7 @@
                         <span class="text-sm font-medium text-blue-700 ">60%</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full w-[60%]"></div>
+                        <div class="bg-blue-600 h-2.5 rounded-full w-[60%] animate-fill60"></div>
                     </div>
                 </div>
                 <div class="progress-component">
@@ -199,7 +271,7 @@
                         <span class="text-sm font-medium text-blue-700 ">60%</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full w-[60%]"></div>
+                        <div class="bg-blue-600 h-2.5 rounded-full w-[60%] animate-fill60"></div>
                     </div>
                 </div>
 
@@ -213,7 +285,7 @@
                         <span class="text-sm font-medium text-blue-700 ">70%</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full w-[70%]"></div>
+                        <div class="bg-blue-600 h-2.5 rounded-full w-[70%] animate-fill70"></div>
                     </div>
                 </div>
                 <div class="progress-component">
@@ -222,7 +294,7 @@
                         <span class="text-sm font-medium text-blue-700 ">60%</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full w-[60%]"></div>
+                        <div class="bg-blue-600 h-2.5 rounded-full w-[60%] animate-fill60"></div>
                     </div>
                 </div>
                 <div class="progress-component">
@@ -231,7 +303,7 @@
                         <span class="text-sm font-medium text-blue-700 ">75%</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full w-[75%]"></div>
+                        <div class="bg-blue-600 h-2.5 rounded-full w-[75%] animate-fill75"></div>
                     </div>
                 </div>
                 <div class="progress-component">
@@ -240,7 +312,7 @@
                         <span class="text-sm font-medium text-blue-700">65%</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full w-[65%]"></div>
+                        <div class="bg-blue-600 h-2.5 rounded-full w-[65%] animate-fill65"></div>
                     </div>
                 </div>
 
@@ -316,10 +388,12 @@
                         <input type="email" class="border-2 rounded-lg p-2" name="email" placeholder="Email" required />
                     </div>
                     <div class="row-container gap-5 w-full">
-                        <input type="text" class="border-2 rounded-lg p-2 w-full" name="subject" placeholder="Subject" required />
+                        <input type="text" class="border-2 rounded-lg p-2 w-full" name="subject" placeholder="Subject"
+                            required />
                     </div>
                     <div class="row-container flex gap-5 w-full justify-start">
-                        <textarea placeholder="Messege..." class="border-2 w-full h-20 pt-2 pl-2 rounded-lg" name="message" required></textarea>
+                        <textarea placeholder="Messege..." class="border-2 w-full h-20 pt-2 pl-2 rounded-lg"
+                            name="message" required></textarea>
 
                     </div>
                     <div class="row-container flex gap-5 w-full justify-start">
